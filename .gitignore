@@ -1,0 +1,27 @@
+# Environment variables & secrets
+.env
+.env*.local
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Uploads & generated models
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/model/
+
+# Temporary files & logs
+powershell.bat
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

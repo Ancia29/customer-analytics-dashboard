@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Customer Analytics Dashboard</title><link rel="stylesheet" href="css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script></head><body>
+<header><h1>Customer Analytics Dashboard</h1><p>Understand customers, revenue, segments and lifetime value.</p></header>
+<main>
+<section class="card" id="drop"><input type="file" id="file" accept=".csv"><span id="fname">Drag &amp; drop a CSV here, or click to browse</span><button id="up">Upload</button><div id="msg"></div></section>
+<section id="kpis" class="grid kpis"></section>
+<section class="grid charts">
+<div class="card"><h3>Revenue Trend (monthly)</h3><canvas id="c1"></canvas></div>
+<div class="card"><h3>Customer Segments</h3><canvas id="c2"></canvas></div>
+<div class="card"><h3>Top Customers by Revenue</h3><canvas id="c3"></canvas></div>
+<div class="card"><h3>Predicted CLV Distribution</h3><canvas id="c4"></canvas></div>
+</section>
+<section class="card"><h3>Customers</h3>
+<div class="bar"><input id="search" placeholder="Search customer ID"><select id="seg"><option value="">All segments</option></select></div>
+<table><thead id="thead"></thead><tbody id="rows"></tbody></table>
+<div class="bar"><button id="prev">Prev</button><span id="pg"></span><button id="next">Next</button></div></section>
+<section class="card" id="detail" hidden></section>
+</main><script src="js/app.js"></script></body></html>
