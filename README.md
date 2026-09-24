@@ -77,7 +77,11 @@ git push -u origin main
 Small, meaningful commits (e.g. "Add RFM segmentation") show your progress and make the project easier to review.
 
 ## Screenshots
-`screenshots/dashboard.png`, `screenshots/upload.png`, `screenshots/customer-details.png` (add after running).
+
+`, `<img width="934" height="496" alt="Screenshot 2026-09-24 113405" src="https://github.com/user-attachments/assets/1e7119db-da8c-4a4b-ae1b-0ebc8c303cc9" />, <img width="941" height="500" alt="Screenshot 2026-09-24 113421" src="https://github.com/user-attachments/assets/55bf3a0c-92f4-4c2b-b682-4049ebb0e9b1" />
+
+`, `<img width="938" height="500" alt="Screenshot 2026-09-24 113441" src="https://github.com/user-attachments/assets/4ca3cbfa-ea84-492e-8a75-d567f7db37d0" />
+
 
 ## Future improvements
 Power BI integration, advanced CLV models, authentication, cloud deployment, automated and email reports, more ML models.
